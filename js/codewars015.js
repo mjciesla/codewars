@@ -9,36 +9,36 @@
 // 0 <= score < 60	'F'
 // Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
 
-function getGrade (s1, s2, s3) {
-    let avr = (s1+s2+s3) / 3
-        if (avr <= 100 && avr >= 90) {
-            return 'A'
-        }else if (avr >= 80 && avr < 90){
-            return 'B'
-        }else if (avr >= 70 && avr < 80){
-            return 'C'
-        }else if (avr >=60 && avr < 70){
-            return 'D'
-        }else if (avr >= 0 && avr < 60){
-            return 'F'
-        }else {return false}
-    // Code here
-  }
+// function getGrade (s1, s2, s3) {
+//     let avr = (s1+s2+s3) / 3
+//         if (avr <= 100 && avr >= 90) {
+//             return 'A'
+//         }else if (avr >= 80 && avr < 90){
+//             return 'B'
+//         }else if (avr >= 70 && avr < 80){
+//             return 'C'
+//         }else if (avr >=60 && avr < 70){
+//             return 'D'
+//         }else if (avr >= 0 && avr < 60){
+//             return 'F'
+//         }else {return false}
+//     // Code here
+//   }
 
 
 
-  //simple
+//   //simple
+//   function getGrade (s1, s2, s3) {
+//     avg = (s1+s2+s3)/3;
+//     if (avg < 60)  return "F";
+//       else if (avg < 70) return "D";
+//       else if (avg < 80) return "C";
+//       else if (avg < 90) return "B";
+//       else return "A";
+//   }
+
+  //short & nicegir
   function getGrade (s1, s2, s3) {
-    avg = (s1+s2+s3)/3;
-    if (avg < 60)  return "F";
-      else if (avg < 70) return "D";
-      else if (avg < 80) return "C";
-      else if (avg < 90) return "B";
-      else return "A";
-  }
-
-  //short & nice
-  function getGrade (s1, s2, s3) {
-    var s = (s1 + s2 + s3) / 3
+    let s = (s1 + s2 + s3) / 3
     return s >= 90 ? "A" : s >= 80 ? "B" : s >= 70 ? "C" : s >= 60 ? "D" : "F"
   }
