@@ -3,7 +3,7 @@
 
 function filter_list(l) {
 
-return l.filter(str => typof str != 'string')
+return l.filter(str => typeof str != 'string')
 }
 
 
