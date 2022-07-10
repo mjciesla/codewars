@@ -26,5 +26,4 @@ function isNice(arr){
     let x = arr[i]
     if (arr.indexOf(x - 1) == -1 && arr.indexOf(x + 1) == -1)
     {return false}
-    }return true
-  }
+    }return arr == false ? false : true;
