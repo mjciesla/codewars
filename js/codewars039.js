@@ -27,3 +27,4 @@ function isNice(arr){
     if (arr.indexOf(x - 1) == -1 && arr.indexOf(x + 1) == -1)
     {return false}
     }return arr == false ? false : true;
+  }
