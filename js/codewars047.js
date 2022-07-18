@@ -14,3 +14,10 @@ function capitalize(s){
 //   function capitalize(s){
 //     return [0,1].map(r=>[...s].map((c,i)=>i%2===r?c.toUpperCase():c).join(''));
 //   };
+
+// function capitalize(s) {
+//     return [
+//         (s.split``.map((w, i) => i % 2 == 0 ? w.toString().toUpperCase() : w).join``),
+//         (s.split``.map((w, i) => i % 2 == 1 ? w.toString().toUpperCase() : w).join``)
+//     ];
+// }
